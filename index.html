@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SiteSafety AI — Job Site Suite, General Foreman Edition</title>
+<meta name="description" content="SiteSafety AI is the job site suite built for the general foreman: crew sign-in by shift code or QR, safety talks generated for the day and read aloud, photo hazard analysis with OSHA references, permits, 46 OSHA documents, daily logs and timesheets emailed to the office — and it works offline.">
+<style>
+  :root{--slate:#1E293B;--slate2:#0F172A;--slate3:#334155;--hv:#FFD700;--hv2:#FFE14D;--ink:#1E293B;--mut:#64748B;--paper:#F1F5F9;--card:#FFFFFF;--line:#E2E8F0}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55}
+  header{background:linear-gradient(160deg,var(--slate) 0%,var(--slate2) 100%);color:#fff;padding:44px 20px 38px;text-align:center;border-bottom:6px solid var(--hv)}
+  .brand{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+  .mark{width:76px;height:76px;background:#0B1220;border:2px solid var(--hv);border-radius:18px;padding:9px;flex:none}
+  .mark svg{display:block;width:100%;height:100%}
+  header h1{font-size:2.2rem;letter-spacing:.3px;line-height:1.15;text-align:left}
+  header h1 .ai{color:var(--hv)}
+  header .tagline{color:#E2E8F0;font-size:1.08rem;margin-top:4px;text-align:left}
+  header .status{display:inline-block;background:var(--hv);color:var(--slate2);font-weight:700;font-size:.95rem;padding:7px 16px;border-radius:999px;margin-top:20px}
+  header .lede{margin:16px auto 0;color:#CBD5E1;max-width:640px;font-size:1.02rem}
+  main{max-width:880px;margin:0 auto;padding:28px 16px 8px}
+  section{margin-bottom:26px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;box-shadow:0 2px 8px rgba(15,23,42,.07)}
+  h2{color:var(--slate);font-size:1.4rem;border-bottom:2px solid var(--hv);padding-bottom:6px;margin-bottom:12px}
+  p{margin-bottom:12px}
+  p:last-child{margin-bottom:0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:16px}
+  .feat{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--hv);border-radius:12px;padding:18px;box-shadow:0 2px 6px rgba(15,23,42,.06)}
+  .feat h3{color:var(--slate);font-size:1.08rem;margin-bottom:6px}
+  .feat p{color:#3F4C63;font-size:.97rem;margin:0}
+  .price-card{background:linear-gradient(160deg,var(--slate) 0%,var(--slate2) 100%);color:#fff;border-radius:14px;padding:26px 22px;text-align:center;box-shadow:0 2px 10px rgba(15,23,42,.18)}
+  .price-card .amount{font-size:2.3rem;font-weight:800;color:var(--hv);line-height:1.1}
+  .price-card .per{font-size:1.05rem;color:#E2E8F0;margin-top:2px}
+  .price-card .soon{margin-top:14px;color:#CBD5E1}
+  .price-card .soon strong{color:#fff}
+  .contact a{color:var(--slate);font-weight:700;text-decoration:none;border-bottom:2px solid var(--hv)}
+  .contact a:hover{color:var(--slate3)}
+  footer{background:var(--slate2);color:#CBD5E1;text-align:center;padding:24px 16px;margin-top:6px;border-top:6px solid var(--hv)}
+  footer a{color:var(--hv2)}
+  @media (max-width:560px){
+    header h1{font-size:1.8rem}
+    .brand{flex-direction:column;text-align:center}
+    header h1,header .tagline{text-align:center}
+    .mark{width:68px;height:68px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 64 64" role="img" aria-label="SiteSafety AI logo">
+        <rect x="29" y="3" width="6" height="13" rx="3" fill="#FFD700"/>
+        <path d="M15 27a17 15 0 0 1 34 0z" fill="#FFD700"/>
+        <rect x="8" y="27" width="48" height="5" rx="2.5" fill="#FFD700"/>
+        <path d="M18 36h28v5c0 8.5-5.8 14.2-14 19-8.2-4.8-14-10.5-14-19z" fill="#FFD700"/>
+        <path d="M25.5 45.5l4.8 4.8 9.2-9.8" stroke="#1E293B" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div>
+      <h1>SiteSafety <span class="ai">AI</span></h1>
+      <div class="tagline">Job Site Suite — General Foreman Edition</div>
+    </div>
+  </div>
+  <div class="status">Coming soon to Google Play</div>
+  <p class="lede">The foreman's whole day in one app — crew sign-in, the safety talk, permits, photos, paperwork, and the daily log — handled from first sign-in to the email to the office.</p>
+</header>
+<main>
+
+<section class="card">
+  <h2>One app for the whole shift</h2>
+  <p>SiteSafety AI &amp; Job Site Suite is built for the general foreman running the day: who's on site, what the hazards are, which permits are open, and what paperwork the office needs — without a clipboard, a binder, or a second trip back to the trailer.</p>
+</section>
+
+<section>
+  <div class="grid">
+    <div class="feat">
+      <h3>Crew sign-in by shift code or QR</h3>
+      <p>The crew signs in on their own phones from the crew page — no app install for workers. The roster builds itself as they arrive.</p>
+    </div>
+    <div class="feat">
+      <h3>Safety talks, written for the day</h3>
+      <p>The morning talk is generated for the day's real conditions and work, then read aloud to the crew — no generic script from a binder.</p>
+    </div>
+    <div class="feat">
+      <h3>Photo hazard analysis</h3>
+      <p>Snap a photo of the work area and get hazard findings with OSHA references, so the talk covers what's actually in front of the crew.</p>
+    </div>
+    <div class="feat">
+      <h3>Permits tracked per day</h3>
+      <p>16 permit types tracked against each day, so what's open, what's required, and what's done is always on the record.</p>
+    </div>
+    <div class="feat">
+      <h3>46 OSHA documents</h3>
+      <p>JHAs, inspections, and logs — 46 OSHA document types generated from the day's real data instead of typed up after hours.</p>
+    </div>
+    <div class="feat">
+      <h3>Paperwork goes straight to the office</h3>
+      <p>The daily log and timesheets are emailed straight to the office from the app. The day is documented before the foreman leaves the site.</p>
+    </div>
+    <div class="feat">
+      <h3>Works offline</h3>
+      <p>No signal on site? The day keeps running — sign-ins, talks, and paperwork continue, and everything syncs when the phone is back in range.</p>
+    </div>
+    <div class="feat">
+      <h3>Time corrections, with a history</h3>
+      <p>Wrong sign-in time? The foreman can correct sign-in times, and the edit history is kept — the record shows what changed and when.</p>
+    </div>
+  </div>
+</section>
+
+<section class="price-card">
+  <div class="amount">$15.99/month</div>
+  <div class="per">after a 14-day free trial</div>
+  <p class="soon"><strong>Coming soon to Google Play</strong> — closed testing begins soon.</p>
+</section>
+
+<section class="card contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:jasonbriggs8365@gmail.com">jasonbriggs8365@gmail.com</a><br>
+  Phone: <a href="tel:+19894657151">(989) 465-7151</a></p>
+</section>
+
+</main>
+<footer>
+  <p>© 2026 Jason Briggs · <a href="privacy.html">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
